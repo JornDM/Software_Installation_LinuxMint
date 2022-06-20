@@ -162,3 +162,5 @@ sudo apt remove texstudio-doc texstudio-l10n
 sudo apt update
 
 sudo apt install -y texstudio
+
+# ==> SMSS <==
