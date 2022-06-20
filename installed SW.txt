@@ -1,0 +1,28 @@
+Software			Installed? |
+--------------------------------
+VSCode				[x]
+Brave				[TODO]
+Packet Tracer		[TODO]
+Spotify				[x]
+Python				[x]
+Oracle Vbox			[x]
+Discord				[x]
+flameshot			[x]	=> Gelijkaardig aan lightshot voor macOS & Windows
+Panopto				[TODO]
+Notepad++			[x]
+7-zipp				[x]
+WinRAR				[x]
+PDF-reader			[x]
+VIM					[x]
+FileZilla 			[x]
+Teams				[x]
+MS-Office 			[TODO]
+Draw.IO				[TODO]
+Git					[TODO]
+Jabreff				[TODO]
+MiKTeX				[TODO]
+Eclipse				[TODO]
+SQL					[TODO]
+Vagrant				[TODO]
+Bitwarden			[TODO]
+
