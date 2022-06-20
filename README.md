@@ -4,7 +4,6 @@ In this repo, you'll find a script that will automatically install some usefull 
 The script will install the following software:  
 * Visual Studio Code
 * Brave Webbrowser
-* Cisco Packet Tracer
 * Spotify
 * Python
 * Oracle VirtualBox
