@@ -133,5 +133,15 @@ sudo apt update
 
 sudo apt install -y git
 
+# ==> Installatie Vagrant <==
+sudo apt-get install vagrant  
 
+mkdir ~/vagrant 
+
+cd ~/Vagrant
+
+vagrant init debs http://puppet-vagrant-boxes.puppetlabs.com/debian-73-x64-virtualbox-nocm.box
+
+# ==> Installatie JabReff <==
+sudo snap install jabref 
 
