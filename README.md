@@ -23,6 +23,8 @@ The script will install the following software:
 * Jabreff
 * MiKTeX
 * Eclipse
-* Microsoft SQL Managemtn Studio
+* Microsoft SQL Management Studio
 * Vagrant
 * Bitwarden (=password manager)
+* PuTTY
+* TeXStudio (=LaTeX editor) 
