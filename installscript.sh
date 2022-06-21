@@ -1,15 +1,11 @@
 #!/bin/bash
 
-# ==> Inloggen vooralleer het installatieproces te laten starten <==
-echo "Inloggen als root vooraleer installatieproces..."
-sudo -i 
-
 # ==> Het vernieuwen van de repo's <==
 echo "Repositories vernieuwen..."
 sudo apt update
 
 # ==> Installeren van de Webbrowser "Brave" <==
-sudo apt install apt-transport-https curl
+sudo apt install -y apt-transport-https curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 
@@ -19,9 +15,6 @@ sudo apt update
 
 sudo apt install -y brave-browser
 
-# ==> Installeren van Packet Tracer <==
-echo "Installeren Packet Tracer..."
-# TBI
 
 # ==> Installeren van Spotify <==
 echo "Installeren Spotify..."
@@ -56,7 +49,7 @@ echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian focal co
 sudo apt update
 
 # Starten van de installatie
-sudo apt install virtualbox-6.1
+sudo apt install -y virtualbox-6.1
 
 # ==> Installeren van Discord <==
 
@@ -73,7 +66,7 @@ sudo snap install discord
 discord 
 
 # ==> Installeren Flameshot (gelijkaardige tool aan Lightshot) <== 
-sudo apt install flameshot 
+sudo apt install -y flameshot 
 
 # ==> Installeren Visual Studio Code <==
 sudo snap install code --classic
@@ -104,9 +97,9 @@ sudo dpkg --add-architecture i386
 
 sudo apt update
 
-sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+sudo apt install -y libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
 
-sudo apt install ./adobe.deb 
+sudo apt install -y ./adobe.deb 
 
 # ==> Installeren VIM <==
 sudo apt install -y vim 
@@ -134,7 +127,7 @@ sudo apt update
 sudo apt install -y git
 
 # ==> Installatie Vagrant <==
-sudo apt-get install vagrant  
+sudo apt-get install -y vagrant  
 
 mkdir ~/vagrant 
 
